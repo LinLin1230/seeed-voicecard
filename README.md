@@ -1,3 +1,20 @@
+# Note.
+
+Device: Raspberry Pi 3b+
+
+OS: 2022-09-22-raspios-buster-armhf.img.xz from https://downloads.raspberrypi.org/raspios_oldstable_armhf/images/raspios_oldstable_armhf-2022-09-26/
+
+Install seeed-voicecard:
+```
+git clone https://github.com/LinLin1230/seeed-voicecard.git
+cd seeed-voicecard
+sudo ./install.sh
+sudo reboot
+```
+Test on "ReSpeaker 4-Mic Linear Array" and "ReSpeaker 6-Mic Circular Array" using Audacity. No channel shifts bug.
+
+The content below is from original repo and keep unchanged.
+
 # seeed-voicecard
 
 The drivers for [ReSpeaker Mic Hat](https://www.seeedstudio.com/ReSpeaker-2-Mics-Pi-HAT-p-2874.html), [ReSpeaker 4 Mic Array](https://www.seeedstudio.com/ReSpeaker-4-Mic-Array-for-Raspberry-Pi-p-2941.html), [6-Mics Circular Array Kit](), and [4-Mics Linear Array Kit]() for Raspberry Pi.
